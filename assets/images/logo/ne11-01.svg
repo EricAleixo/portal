@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1577.44 993.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3db23d;
+      }
+
+      .cls-2 {
+        font-size: 919.98px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: #1e1e77;
+      }
+
+      .cls-6 {
+        letter-spacing: .02em;
+      }
+
+      .cls-7 {
+        letter-spacing: .01em;
+      }
+
+      .cls-8 {
+        letter-spacing: .02em;
+      }
+
+      .cls-3 {
+        font-size: 805.06px;
+      }
+
+      .cls-3, .cls-9 {
+        fill: #c40808;
+      }
+
+      .cls-10 {
+        fill: #e29a1b;
+      }
+
+      .cls-5 {
+        font-family: Montserrat-SemiBold, Montserrat;
+        font-size: 162.99px;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(786.91 749.44)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-2" transform="translate(1217.04 749.44)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-5" transform="translate(429.14 956.61)"><tspan class="cls-6" x="0" y="0">N</tspan><tspan class="cls-7" x="135.93" y="0">O</tspan><tspan class="cls-8" x="275.45" y="0">TÍCIAS</tspan></text>
+  <path class="cls-4" d="M55.77,391.68h354.69v3.07c0,195.76-158.93,354.69-354.69,354.69h0v-357.76h0Z"/>
+  <path class="cls-9" d="M129.55,36.99h280.91v354.69H55.77V110.77c0-40.72,33.06-73.78,73.78-73.78Z"/>
+  <path class="cls-10" d="M410.46,391.68h356.35v357.76h0c-196.67,0-356.35-159.67-356.35-356.35v-1.41h0Z"/>
+  <path class="cls-1" d="M410.46,36.99h1.66c195.76,0,354.69,158.93,354.69,354.69h-356.35V36.99h0Z"/>
+</svg>
