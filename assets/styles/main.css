@@ -1,6 +1,6 @@
-@import url(_components-style/header.css);
-@import url(_components-style/home.css);
-@import url(_components-style/news-carousel.css);
+@import url('/assets/styles/_components-style/header.css');
+@import url('/assets/styles/_components-style/home.css');
+@import url('/assets/styles/_components-style/news-carousel.css');
 
 * {
     margin: 0;
@@ -11,6 +11,11 @@
 }
 
 /*Começo da Home*/
+
+.container-main {
+    /* Padding padrão para telas maiores */
+    padding: 0;
+}
 
 section{
     padding:0 10px;
@@ -57,4 +62,44 @@ section{
     font-weight: bold;
     transform: scale(1.1);
     display: inline-block;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) { /* Para tablets e telas menores */
+    .main-layout {
+        grid-template-columns: 1fr;
+    }
+
+    #main-section, .grid-container {
+        grid-column: auto;
+    }
+
+    /* Ajuste o padding do container-main */
+    .container-main {
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) { /* Para telas menores que 768px (como tablets na vertical e celulares grandes) */
+     .container-main {
+        padding: 0 9px;
+    }
+
+    section {
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) { /* Para telas menores que 480px (como a maioria dos celulares) */
+    .container-main {
+        padding: 0 11px;
+    }
+
+    section {
+        padding: 0;
+    }
 }

@@ -9,7 +9,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/images/logo/ne11-01.svg">
     <link rel="apple-touch-icon" href="assets/images/logo/ne11-01.svg">
     <title>Nordeste 1 - Portal de Notícias</title>
-    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/main.css">
     <script defer src="assets/scripts/main.js"></script>
 </head>
 
@@ -112,63 +112,59 @@
                 </div>
             </section>
             <div class="grid-container">
-                <div class="news-container">
-                    <div><img src="assets/images/news/noticia1.jpg" alt="Noticia 1"></div>
-                    <div class="new-text-container">
-                        <div>
-                            <p class="time-post">10 minutos</p>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
                         </div>
-                        <div>
-                            <p class="new-text-tittle">Lorem ipsum dolor sit amet Lorem, ipsum.</p>
+                        <div class="headline">
+                            NBA players give back in local charity event
                         </div>
-                        <div class="description-container">
-                            <p class="description-text">Lorem ipsum dolor sit amet, Lorem, ipsum. <strong
-                                    class="special-mark">leia mais...</strong></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="news-container">
-                    <div><img src="assets/images/news/noticia1.jpg" alt="Noticia 1"></div>
-                    <div class="new-text-container">
-                        <div>
-                            <p class="time-post">10 minutos</p>
-                        </div>
-                        <div>
-                            <p class="new-text-tittle">Lorem ipsum dolor sit amet Lorem, ipsum.</p>
-                        </div>
-                        <div class="description-container">
-                            <p class="description-text">Lorem ipsum dolor sit amet, Lorem, ipsum. <strong
-                                    class="special-mark">leia mais...</strong></p>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
-                <div class="news-container">
-                    <div><img src="assets/images/news/noticia1.jpg" alt="Noticia 1"></div>
-                    <div class="new-text-container">
-                        <div>
-                            <p class="time-post">10 minutos</p>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
                         </div>
-                        <div>
-                            <p class="new-text-tittle">Lorem ipsum dolor sit amet Lorem, ipsum.</p>
+                        <div class="headline">
+                            NBA players give back in local charity event
                         </div>
-                        <div class="description-container">
-                            <p class="description-text">Lorem ipsum dolor sit amet, Lorem, ipsum. <strong
-                                    class="special-mark">leia mais...</strong></p>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
-                <div class="news-container">
-                    <div><img src="assets/images/news/noticia1.jpg" alt="Noticia 1"></div>
-                    <div class="new-text-container">
-                        <div>
-                            <p class="time-post">10 minutos</p>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
                         </div>
-                        <div>
-                            <p class="new-text-tittle">Lorem ipsum dolor sit amet Lorem, ipsum.</p>
+                        <div class="headline">
+                            NBA players give back in local charity event
                         </div>
-                        <div class="description-container">
-                            <p class="description-text">Lorem ipsum dolor sit amet, Lorem, ipsum. <strong
-                                    class="special-mark">leia mais...</strong></p>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
+                        </div>
+                        <div class="headline">
+                            NBA players give back in local charity event
+                        </div>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +177,7 @@
                     <h2>Notícias recentes</h2>
                 </div>
                 <div>
-                    <a class="link-veja-mais" href="/">
+                    <a class="link-veja-mais" href="/noticias">
                         <p>Veja mais</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -191,11 +187,8 @@
                     </a>
                 </div>
             </div>
-            <div class="news-scroll-container">
-                <?php
-                    require_once "db.php";
-                    mostrarTable();
-                ?>
+            <div class="grid-container">
+                
             </div>
         </section>
     </main>
