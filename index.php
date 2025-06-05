@@ -194,8 +194,7 @@
             <div class="news-scroll-container">
                 <?php
                     require_once "db.php";
-                    $conn = conexaoDB();
-                    mostrarTable($conn);
+                    mostrarTable();
                 ?>
             </div>
         </section>
