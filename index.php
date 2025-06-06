@@ -305,74 +305,68 @@
                 <div class="news-main-recents">
                     <div class="news-contents">
                         <div class="image-main">
-                            <img src="assets/images/ancelotti.webp" alt="Noticia 1">
+                            <img src="assets/images/ancelotti.webp" alt="Notícia 1">
                         </div>
                         <div class="card">
-    <div>
-        <div class="author">
-            <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
-            <strong class="name-author">GE Brasil</strong><span class="time"> · há 8 minutos</span>
-        </div>
-        <div class="headline">
-            Richarlison brilha em amistoso e garante vitória da Seleção
-        </div>
-        <div class="content">
-            A manchete "Richarlison brilha em amistoso e garante vitória da Seleção" destaca a atuação decisiva do atacante, que marcou dois gols e foi o grande destaque da partida contra o México. Sua performance reafirma a confiança do técnico Ancelotti no jogador.
-        </div>
-    </div>
-    <div class="footer">
-        <span>Seleção Brasileira</span> · leitura de 3 min
-    </div>
-</div>
-<div class="news-contents">
-    <div class="image-main">
-        <img src="assets/images/richarlyson.jpg" alt="Noticia 1">
-    </div>
-    <div class="card">
-        <div>
-            <div class="author">
-                <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
-                <strong class="name-author">UOL Esporte</strong><span class="time"> · há 8 minutos</span>
-            </div>
-            <div class="headline">
-                Ancelotti testa nova formação para a Copa América
-            </div>
-            <div class="content">
-                O técnico Carlo Ancelotti iniciou os testes com uma nova formação tática visando a Copa América. A mudança visa fortalecer o meio-campo com mais criatividade e controle de posse de bola, apostando em jovens talentos como Endrick e João Gomes.
-            </div>
-        </div>
-        <div class="footer">
-            <span>Seleção Brasileira</span> · leitura de 4 min
-        </div>
-    </div>
-</div>
-<div class="news-contents">
-    <div class="image-main">
-        <img src="assets/images/selecao.jpg" alt="Noticia 1">
-    </div>
-    <div class="card">
-        <div>
-            <div class="author">
-                <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
-                <strong class="name-author">Folha Esportiva</strong><span class="time"> · há 8 minutos</span>
-            </div>
-            <div class="headline">
-                Seleção intensifica treinos em Orlando antes do torneio
-            </div>
-            <div class="content">
-                A Seleção Brasileira segue em ritmo intenso de treinos na Flórida. Sob comando de Ancelotti, os jogadores realizam atividades táticas e físicas em dois períodos, com foco total na estreia contra a Costa Rica pela Copa América.
-            </div>
-        </div>
-        <div class="footer">
-            <span>Seleção Brasileira</span> · leitura de 5 min
-        </div>
-    </div>
-</div>
-
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">GE Brasil</strong><span class="time"> · há 8
+                                        minutos</span>
                                 </div>
+                                <div class="headline">
+                                    Richarlison brilha em amistoso e garante vitória da Seleção
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 3 min
                             </div>
                         </div>
                     </div>
+
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/richarlyson.jpg" alt="Notícia 2">
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">UOL Esporte</strong><span class="time"> · há 8
+                                        minutos</span>
+                                </div>
+                                <div class="headline">
+                                    Ancelotti testa nova formação para a Copa América
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 4 min
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/selecao.jpg" alt="Notícia 3">
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">Folha Esportiva</strong><span class="time"> · há 8
+                                        minutos</span>
+                                </div>
+                                <div class="headline">
+                                    Seleção intensifica treinos em Orlando antes do torneio
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 5 min
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
