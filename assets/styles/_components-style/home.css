@@ -64,7 +64,6 @@
     color: var(--primary-color);
 }
 
-/* Layout Principal */
 .main-layout {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -83,11 +82,9 @@
     object-fit: cover;
 }
 
-/* Grid de Notícias */
 .grid-container {
     grid-column: 2;
     padding: 0;
-    margin: var(--spacing-md) 0;
     display: grid;
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
@@ -97,7 +94,6 @@
     display: flex;
     align-items: flex-start;
     gap: var(--spacing-md);
-    padding: var(--spacing-md);
     background-color: #fff;
 }
 
@@ -140,14 +136,8 @@
     font-weight: bold;
 }
 
-/* Seção de Notícias em Destaque */
 #top-news {
     margin: var(--spacing-lg) 0;
-}
-
-#top-news .container-top {
-    display: flex;
-    justify-content: space-between;
 }
 
 .link-veja-mais {
@@ -156,6 +146,45 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
+}
+
+.container-recents-news {
+    display: flex;
+    overflow-x: auto;
+    gap: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+    -webkit-overflow-scrolling: touch;
+}
+
+.container-recents-news::-webkit-scrollbar {
+    height: 6px; 
+}
+
+.container-recents-news::-webkit-scrollbar-track {
+    background: var(--bg-light); 
+    border-radius: 10px;
+}
+
+.container-recents-news::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius: 10px;
+}
+
+.container-recents-news::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-hover); 
+}
+
+.container-recents-news .sub-news {
+    flex: 0 0 350px;
+    margin: 0 15px 0 0;
+    flex-direction: column;
+    width: 160px;
+    padding: var(--spacing-md);
+}
+
+.container-recents-news .sub-news img{
+    width: 350px;
+    height: 300px;
 }
 
 /* Animações */
@@ -173,4 +202,24 @@
     #main-section, .grid-container {
         grid-column: auto;
     }
+}
+
+@media (max-width: 768px){
+
+    .container-new-update{
+        margin: 2px 0 0 0;
+    }
+
+    .container-recents-news .sub-news {
+    flex: 0 0 200px;
+    margin: 0 15px 0 0;
+    flex-direction: column;
+    width: 160px;
+    padding: var(--spacing-md);
+}
+
+.container-recents-news .sub-news img{
+    width: 200px;
+    height: 200px;
+}
 }

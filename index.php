@@ -22,12 +22,12 @@
         </div>
         <nav class="header__nav" role="navigation" aria-label="Menu principal">
             <div class="nav__fixed" aria-hidden="true">
-                <span class="nav__item">Brasil</span>
+                <span class="nav__item">Futebol</span>
             </div>
             <ul class="nav__list">
                 <li><a href="/inicio" class="nav__item">Início</a></li>
                 <li><a href="/revista" class="nav__item">Revista</a></li>
-                <li><a href="/brasil" class="nav__item selected" aria-current="page">Brasil</a></li>
+                <li><a href="/brasil" class="nav__item selected" aria-current="page">futebol</a></li>
                 <li><a href="/paraiba" class="nav__item">Paraíba</a></li>
                 <li><a href="/cidades" class="nav__item">Cidades</a></li>
                 <li><a href="/politicas" class="nav__item">Políticas</a></li>
@@ -105,7 +105,8 @@
                             </div>
                         </div>
                         <p class="news-tittle">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio, quas.
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio,
+                            quas.
                             Eum.
                         </p>
                     </div>
@@ -122,7 +123,8 @@
                             NBA players give back in local charity event
                         </div>
                         <div class="snippet">
-                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +138,8 @@
                             NBA players give back in local charity event
                         </div>
                         <div class="snippet">
-                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
@@ -150,7 +153,8 @@
                             NBA players give back in local charity event
                         </div>
                         <div class="snippet">
-                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
@@ -164,7 +168,8 @@
                             NBA players give back in local charity event
                         </div>
                         <div class="snippet">
-                            The phrase "give back" implies that the players are showing gratitude or a sense of <a href="#" class="read-more">read more...</a>
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
                         </div>
                     </div>
                 </div>
@@ -174,7 +179,7 @@
         <section id="top-news">
             <div class="container-top">
                 <div>
-                    <h2>Notícias recentes</h2>
+                    <h2>Melhores notícias</h2>
                 </div>
                 <div>
                     <a class="link-veja-mais" href="/noticias">
@@ -187,9 +192,187 @@
                     </a>
                 </div>
             </div>
-            <div class="grid-container">
-                
+            <div class="container-recents-news">
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
+                        </div>
+                        <div class="headline">
+                            NBA players give back in local charity event
+                        </div>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
+                        </div>
+                        <div class="headline">
+                            NBA players give back in local charity event
+                        </div>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
+                        </div>
+                        <div class="headline">
+                            NBA players give back in local charity event
+                        </div>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-news">
+                    <img src="assets/images/news/noticia1.jpg" alt="Imagem da notícia">
+                    <div class="text-content">
+                        <div class="author-time">
+                            <span>• 6 minutes ago</span>
+                        </div>
+                        <div class="headline">
+                            NBA players give back in local charity event
+                        </div>
+                        <div class="snippet">
+                            The phrase "give back" implies that the players are showing gratitude or a sense of <a
+                                href="#" class="read-more">read more...</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section id="recent-news">
+            <div class="container-top">
+                <div>
+                    <h2>Futebol</h2>
+                </div>
+                <div>
+                    <a class="link-veja-mais" href="/noticias">
+                        <p>Veja mais</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12h17M12 5l7 7-7 7" stroke-dasharray="0 0 0 0" />
+                            <path d="M19 12l-7 7" stroke-width="1" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="news-main-recents">
+                <div class="news-contents">
+                    <div class="image-main">
+                        <img src="assets/images/ancelloti.webp" alt="Noticia 1">
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="author">
+                                <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                Globo Esporte · há 8 minutos
+                            </div>
+                            <div class="headline">
+                                Ancelotti estreia com empate e preocupa torcida brasileira
+                            </div>
+                            <div class="content">
+                                A manchete "Ancelotti estreia com empate e preocupa torcida brasileira" destaca o
+                                desempenho da Seleção sob o comando do novo técnico. Em sua estreia oficial, Ancelotti
+                                viu a equipe empatar em 0 a 0 com o Equador, em um jogo marcado por pouca criatividade
+                                ofensiva e dificuldades na construção das jogadas. O resultado abaixo das expectativas
+                                gerou dúvidas sobre o preparo da equipe para os próximos desafios nas Eliminatórias.
+                            </div>
+                        </div>
+
+                        <div class="footer">
+                            <span>NBA Global Games</span> · 15 min read
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-recent-news">
+                <div class="news-main-recents">
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/ancelotti.webp" alt="Noticia 1">
+                        </div>
+                        <div class="card">
+    <div>
+        <div class="author">
+            <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+            <strong class="name-author">GE Brasil</strong><span class="time"> · há 8 minutos</span>
+        </div>
+        <div class="headline">
+            Richarlison brilha em amistoso e garante vitória da Seleção
+        </div>
+        <div class="content">
+            A manchete "Richarlison brilha em amistoso e garante vitória da Seleção" destaca a atuação decisiva do atacante, que marcou dois gols e foi o grande destaque da partida contra o México. Sua performance reafirma a confiança do técnico Ancelotti no jogador.
+        </div>
+    </div>
+    <div class="footer">
+        <span>Seleção Brasileira</span> · leitura de 3 min
+    </div>
+</div>
+<div class="news-contents">
+    <div class="image-main">
+        <img src="assets/images/richarlyson.jpg" alt="Noticia 1">
+    </div>
+    <div class="card">
+        <div>
+            <div class="author">
+                <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                <strong class="name-author">UOL Esporte</strong><span class="time"> · há 8 minutos</span>
+            </div>
+            <div class="headline">
+                Ancelotti testa nova formação para a Copa América
+            </div>
+            <div class="content">
+                O técnico Carlo Ancelotti iniciou os testes com uma nova formação tática visando a Copa América. A mudança visa fortalecer o meio-campo com mais criatividade e controle de posse de bola, apostando em jovens talentos como Endrick e João Gomes.
+            </div>
+        </div>
+        <div class="footer">
+            <span>Seleção Brasileira</span> · leitura de 4 min
+        </div>
+    </div>
+</div>
+<div class="news-contents">
+    <div class="image-main">
+        <img src="assets/images/selecao.jpg" alt="Noticia 1">
+    </div>
+    <div class="card">
+        <div>
+            <div class="author">
+                <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                <strong class="name-author">Folha Esportiva</strong><span class="time"> · há 8 minutos</span>
+            </div>
+            <div class="headline">
+                Seleção intensifica treinos em Orlando antes do torneio
+            </div>
+            <div class="content">
+                A Seleção Brasileira segue em ritmo intenso de treinos na Flórida. Sob comando de Ancelotti, os jogadores realizam atividades táticas e físicas em dois períodos, com foco total na estreia contra a Costa Rica pela Copa América.
+            </div>
+        </div>
+        <div class="footer">
+            <span>Seleção Brasileira</span> · leitura de 5 min
+        </div>
+    </div>
+</div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </section>
     </main>
 
