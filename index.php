@@ -104,7 +104,7 @@
                                 <p>40 minutos</p>
                             </div>
                         </div>
-                        <p class="news-tittle">
+                        <p class="news-title">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio,
                             quas.
                             Eum.
@@ -301,7 +301,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bottom-recent-news">
+            <!-- <div class="bottom-recent-news">
                 <div class="news-main-recents">
                     <div class="news-contents">
                         <div class="image-main">
@@ -366,9 +366,215 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+        </section>
+
+        <!-- Nova Seção do Jogo de Futebol -->
+        <section class="soccer-game">
+            <div class="game-background">
+                <img src="assets/images/times/fundo.webp" alt="Campo de Futebol">
+            </div>
+            <div class="game-info-overlay">
+                <div class="team team-home">
+                    <img src="assets/images/times/corinthans.png" alt="Logo Corinthians">
+                    <p class="team-name">Corinthians</p>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team team-away">
+                    <img src="assets/images/times/corinthans.png" alt="Logo Flamengo">
+                    <p class="team-name">Corinthians</p>
+                </div>
+            </div>
+            <div class="game-details-overlay">
+                <p class="game-datetime">Domingo, 14 de Janeiro de 2024 | 20:00 - 22:00 BRT</p>
+                <p class="game-location">Neo Química Arena, São Paulo</p>
+            </div>
+            
+        </section>
+        <!-- Nova seção de Vídeos Populares e Classificação da NBA -->
+        <section class="videos-and-standings">
+            <div class="popular-videos-section">
+                <h2>Notícias Populares</h2>
+                <div class="news-list">
+                    <!-- Primeira notícia -->
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/selecao.jpg" alt="Notícia 3">
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">Folha Esportiva</strong><span class="time"> · há 8
+                                        minutos</span>
+                                </div>
+                                <div class="headline">
+                                    Seleção intensifica treinos em Orlando antes do torneio
+                                </div>
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio,
+                                    quas.
+                                    Eum.
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 5 min
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Segunda notícia -->
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/richarlyson.jpg" alt="Notícia 2">
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">UOL Esporte</strong><span class="time"> · há 8
+                                        minutos</span>
+                                </div>
+                                <div class="headline">
+                                    Ancelotti testa nova formação para a Copa América
+                                </div>
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio,
+                                    quas.
+                                    Eum.
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 4 min
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terceira notícia -->
+                    <div class="news-contents">
+                        <div class="image-main">
+                            <img src="assets/images/ancelotti.webp" alt="Notícia 1">
+                        </div>
+                        <div class="card">
+                            <div>
+                                <div class="author">
+                                    <img src="assets/images/avatars/avatar-mock.png" alt="Avatar">
+                                    <strong class="name-author">GE Brasil</strong><span class="time"> · há 8
+                                        minutos</span>
+                                </div>
+                                <div class="headline">
+                                    Richarlison brilha em amistoso e garante vitória da Seleção
+                                </div>
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sapiente? Distinctio,
+                                    quas.
+                                    Eum.
+                                </div>
+                            </div>
+                            <div class="footer">
+                                <span>Seleção Brasileira</span> · leitura de 3 min
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="nba-standings-section">
+                <h2>Brasileirão Série A</h2>
+                <div class="standings-table">
+                    <div class="table-header">
+                        <span class="team-rank-header">Time</span>
+                        <span class="wins-header">P</span>
+                        <span class="losses-header">J</span>
+                        <span class="points-header">SG</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                    <div class="table-row">
+                        <div class="team-info">
+                            <img src="assets/images/teams/flamengo.png" alt="Flamengo Logo" class="team-logo">
+                            <span class="team-name">Flamengo</span>
+                        </div>
+                        <span class="wins">63</span>
+                        <span class="losses">38</span>
+                        <span class="points">+25</span>
+                    </div>
+                </div>
             </div>
         </section>
+
     </main>
+
 
 </body>
 

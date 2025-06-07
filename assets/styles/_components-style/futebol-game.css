@@ -1,0 +1,247 @@
+.soccer-game {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.soccer-game .game-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.soccer-game .game-background::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(to bottom, transparent, #000000f2);
+    pointer-events: none;
+    border-radius: 14px;
+}
+
+.soccer-game .game-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%); 
+    border-image: fill 0 linear-gradient(#0003, #000);
+}
+
+.soccer-game .game-info-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #00000080;
+}
+
+.soccer-game .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.soccer-game .team img {
+    width: 250px; 
+    height: 250px;
+    object-fit: contain;
+    filter: none;
+}
+
+.soccer-game .team-name {
+    margin-top: 10px;
+    font-size: 0.3em; 
+    font-weight: normal;
+}
+
+.soccer-game .vs {
+    font-size: 1.4em;
+    position: relative;
+}
+
+.soccer-game .vs::after,
+.soccer-game .vs::before{
+    content: " ";
+    position: absolute;
+    width: 150%;
+    height: 7px;
+    top:-30%;
+    left: -20%;
+    transform: translateX(-4%);
+    background:#ffffffc0;
+    border-radius: 4px;
+}
+
+.soccer-game .vs::before{
+    top: 125%;
+}
+
+.soccer-game .game-details-overlay {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.soccer-game .game-datetime {
+    margin-bottom: 5px;
+    font-size: 1em;
+    background: #ffffff50;
+    padding:15px;
+    border-radius: 30px;
+}
+
+.soccer-game .game-location {
+    font-size: 2.3em;
+    color: #ff6600; 
+}
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 1200px) {
+    .soccer-game {
+        height: 600px;
+    }
+
+    .soccer-game .game-info-overlay {
+        gap: 80px;
+    }
+
+    .soccer-game .team img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .soccer-game {
+        height: 500px;
+    }
+
+    .soccer-game .game-info-overlay {
+        gap: 60px;
+    }
+
+    .soccer-game .team img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .soccer-game .game-location {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .soccer-game {
+        height: 400px;
+    }
+
+    .soccer-game .game-info-overlay {
+        gap: 40px;
+    }
+
+    .soccer-game .team img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .soccer-game .vs {
+        font-size: 1.2em;
+    }
+
+    .soccer-game .game-location {
+        font-size: 1.8em;
+    }
+
+    .soccer-game .game-datetime {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .soccer-game {
+        height: 350px;
+    }
+
+    .soccer-game .game-info-overlay {
+        gap: 20px;
+    }
+
+    .soccer-game .team img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .soccer-game .team-name {
+        font-size: 0.25em;
+    }
+
+    .soccer-game .vs {
+        font-size: 1em;
+    }
+
+    .soccer-game .vs::after,
+    .soccer-game .vs::before {
+        width: 120%;
+        height: 5px;
+    }
+
+    .soccer-game .game-location {
+        font-size: 1.5em;
+    }
+
+    .soccer-game .game-datetime {
+        font-size: 0.8em;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .soccer-game {
+        height: 300px;
+    }
+
+    .soccer-game .team img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .soccer-game .game-info-overlay {
+        gap: 15px;
+    }
+
+    .soccer-game .vs {
+        font-size: 0.9em;
+    }
+
+    .soccer-game .game-location {
+        font-size: 1.3em;
+    }
+
+    .soccer-game .game-datetime {
+        font-size: 0.7em;
+        padding: 6px;
+    }
+} 
